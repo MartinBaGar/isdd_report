@@ -2,10 +2,9 @@
 
 ## Installing
 
-*TODO*: Replace the `<github-organization>` with your GitHub organization.
 
 ```bash
-quarto use template <github-organization>/isdd_report
+quarto use template MartinBaGar/isdd_report
 ```
 
 This will install the extension and create an example qmd file that you can use as a starting place for your article.
