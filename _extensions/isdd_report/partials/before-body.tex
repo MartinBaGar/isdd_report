@@ -1,0 +1,23 @@
+\begin{center}
+  \vspace*{\fill} % Begin vertical centering
+  \begin{minipage}{\textwidth}
+    $if(has-frontmatter)$\frontmatter$endif$
+    $if(title)$
+      $if(beamer)$
+        \frame{\titlepage}
+      $else$
+        \maketitle
+      $endif$
+      $if(abstract)$
+        \begin{abstract}$abstract$\end{abstract}
+      $endif$
+    $endif$
+    \begin{center}
+      \includegraphics[width=7.5cm]{logo_ParisCite_couleur.png}
+    \end{center}
+  \end{minipage}
+  \vspace*{\fill} % End vertical centering
+\end{center}
+\thispagestyle{empty}
+\newpage
+\setcounter{page}{1}
